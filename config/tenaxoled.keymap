@@ -95,6 +95,16 @@
             bindings = <&caps_word>;
             key-positions = <4 5>;
         };
+
+        combo-question {
+            bindings = <&kp QUESTION>;
+            key-positions = <23 24>;
+        };
+
+        combo-exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <25 26>;
+        };
     };
 
     behaviors {
