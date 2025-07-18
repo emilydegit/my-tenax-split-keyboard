@@ -43,74 +43,11 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_lpar {
-            timeout-ms = <100>;
-            key-positions = <4 3>;
-            bindings = <&kp LPAR>;
-            layers = <0 1>;
-        };
-
-        combo_rpar {
-            timeout-ms = <100>;
-            key-positions = <6 5>;
-            bindings = <&kp RPAR>;
-            layers = <0 1 2>;
-        };
-
-        combo_lbkt {
-            timeout-ms = <100>;
-            key-positions = <13 14>;
-            bindings = <&kp LBKT>;
-            layers = <0 1 2>;
-        };
-
-        combo_rbkt {
-            timeout-ms = <100>;
-            key-positions = <15 16>;
-            bindings = <&kp RBKT>;
-            layers = <0 1>;
-        };
-
-        combo_lbrc {
-            timeout-ms = <100>;
-            key-positions = <23 24>;
-            bindings = <&kp LBRC>;
-            layers = <0 1 2>;
-        };
-
-        combo_rbrc {
-            timeout-ms = <100>;
-            key-positions = <25 26>;
-            bindings = <&kp RBRC>;
-            layers = <0 1 2>;
-        };
-
         combo_dash {
             timeout-ms = <200>;
-            key-positions = <3 13>;
+            key-positions = <5 15>;
             layers = <0 2>;
             bindings = <&kp MINUS>;
-        };
-
-        combo_undersc {
-            timeout-ms = <200>;
-            key-positions = <13 23>;
-            layers = <0 1 2>;
-            bindings = <&kp LS(MINUS)>;
-        };
-
-        combo_emdash {
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-            key-positions = <14 4>;
-            bindings = <&kp LS(LA(MINUS))>;
-        };
-
-        combo_plus {
-            timeout-ms = <50>;
-            layers = <0 1 2>;
-            key-positions = <14 24>;
-            bindings = <&kp LS(EQUAL)>;
         };
 
         bt_clr {
@@ -119,176 +56,39 @@
             layers = <3>;
         };
 
-        drafts_bullet {
-            bindings = <&kp LC(B)>;
-            key-positions = <12 22>;
-            timeout-ms = <200>;
-            layers = <0>;
-        };
-
-        mo_L6 {
-            bindings = <&mo 6>;
-            key-positions = <1 2 3>;
-        };
-
-        cmb_slideover {
-            bindings = <&macro_slideover>;
-            key-positions = <15 25>;
-            layers = <0 2>;
-        };
-
-        cmb_undo {
-            bindings = <&kp LG(Z)>;
-            key-positions = <11 12 13>;
-            layers = <0>;
-            timeout-ms = <200>;
-        };
-
-        cmb_l5 {
-            bindings = <&mo 5>;
-            key-positions = <12 13>;
-            timeout-ms = <200>;
-            layers = <0 1 2>;
-        };
-
-        bsp_word {
-            bindings = <&bsp_word>;
-            key-positions = <6 16>;
-            timeout-ms = <200>;
-            layers = <0 2>;
-        };
-
-        cmb_colon {
-            bindings = <&kp COLON>;
-            key-positions = <16 26>;
-            timeout-ms = <200>;
-            layers = <0>;
-        };
-
-        cmb_que {
-            bindings = <&mod_qmarkcolon>;
-            key-positions = <27 17>;
-            timeout-ms = <200>;
-            layers = <0>;
-        };
-
         bsp_del {
             bindings = <&bspc_del>;
-            key-positions = <7 17>;
+            key-positions = <20 21>;
             timeout-ms = <200>;
             layers = <0>;
-        };
-
-        cmb_stickyshift {
-            bindings = <&sk LEFT_SHIFT>;
-            key-positions = <2 12>;
-            layers = <0 1 2>;
         };
 
         combo_dqt {
-            bindings = <&kp DQT>;
-            key-positions = <19 29>;
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <5 6>;
             layers = <0>;
             timeout-ms = <200>;
-        };
-
-        combo_a {
-            bindings = <&kp LS(A)>;
-            key-positions = <10 20>;
-            layers = <0>;
-            timeout-ms = <200>;
-        };
-
-        cmb_pp {
-            bindings = <&kp C_PLAY_PAUSE>;
-            key-positions = <7 17>;
-            timeout-ms = <200>;
-            layers = <4>;
-        };
-
-        cmb_navtog {
-            bindings = <&tog 2>;
-            key-positions = <28 27 26>;
-            timeout-ms = <200>;
-            layers = <0 2>;
-        };
-
-        cmb_slash {
-            bindings = <&mod_slash>;
-            key-positions = <18 28>;
-            timeout-ms = <150>;
-            layers = <0>;
-        };
-
-        cmb_altdash {
-            bindings = <&kp LA(MINUS)>;
-            key-positions = <3 13>;
-            timeout-ms = <200>;
-            layers = <1>;
         };
 
         cmb_bspLine {
             bindings = <&kp RG(BACKSPACE)>;
-            key-positions = <18 8>;
+            key-positions = <10 11>;
             layers = <0>;
         };
 
-        cmb_shiftlock {
-            bindings = <&hold_shift>;
-            key-positions = <17 27>;
-            layers = <2>;
+        combo-esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
 
-        cmb_moveline {
-            bindings = <&smart_moveline>;
-            key-positions = <17 7>;
-            timeout-ms = <200>;
-            layers = <2>;
+        combo-tab {
+            bindings = <&kp TAB>;
+            key-positions = <8 9>;
         };
 
-        cmb_arrwordleft {
-            bindings = <&ArrowSelect RS(RA(LEFT)) RA(LEFT)>;
-            key-positions = <16 26>;
-            layers = <2>;
-            require-prior-idle-ms = <225>;
-        };
-
-        cmb_arrwordright {
-            bindings = <&ArrowSelect RA(RS(RIGHT)) RA(RIGHT)>;
-            key-positions = <18 28>;
-            layers = <2>;
-            require-prior-idle-ms = <225>;
-        };
-
-        cmb_ltphold {
-            bindings = <&left_taphold RS(RG(LEFT_ARROW)) RG(LEFT)>;
-            key-positions = <17 16>;
-            layers = <0 2>;
-        };
-
-        cmb_rtphold {
-            bindings = <&rght_taphold RS(RG(RIGHT)) RG(RIGHT)>;
-            key-positions = <17 18>;
-            layers = <0 2>;
-        };
-
-        ldup {
-            bindings = <&left_taphold RS(RG(LEFT_ARROW)) RG(LEFT)>;
-            key-positions = <26 27>;
-            layers = <0 2>;
-        };
-
-        rdup {
-            bindings = <&rght_taphold RS(RG(RIGHT)) RG(RIGHT)>;
-            key-positions = <28 27>;
-            layers = <0 2>;
-        };
-
-        cmb_redo {
-            bindings = <&kp LS(RG(Z))>;
-            key-positions = <17 16 18>;
-            timeout-ms = <200>;
-            layers = <0>;
+        combo-capslock {
+            bindings = <&kp CAPS>;
+            key-positions = <24 25>;
         };
     };
 
@@ -624,10 +424,10 @@
         default {
             display-name = "0DFL";
             bindings = <
-&kp Z               &kp L           &kp D           &mt LC(C) C       &mt LC(V) V  &kp J       &kp F                &kp O            &kp U            &kp SEMI
-&mt LCTRL N         &mt LEFT_ALT R  &mt LEFT_GUI T  &mt LEFT_SHIFT S  &ht_hl 5 G   &ht_hl 5 Y  &mt RIGHT_SHIFT H    &mt RIGHT_GUI A  &mt RIGHT_ALT E  &mt RCTRL I
-&ht_shift LSHIFT Z  &kp Q           &kp M           &kp W             &kp B        &kp K       &kp P                &kp COMMA        &kp DOT          &kp FSLH
-                                    &kp AT          &mo 6             &kp SPACE    &kp BSPC    &mt LS(ENTER) ENTER  &caps_word
+&kp Z        &kp L           &kp D           &mt LC(C) C       &mt LC(V) V  &kp J       &kp F                &kp O            &kp U            &kp SEMI
+&mt LCTRL N  &mt LEFT_ALT R  &mt LEFT_GUI T  &mt LEFT_SHIFT S  &ht_hl 5 G   &ht_hl 5 Y  &mt RIGHT_SHIFT H    &mt RIGHT_GUI A  &mt RIGHT_ALT E  &mt RCTRL I
+&mt LC(X) X  &kp Q           &kp M           &kp W             &kp B        &kp K       &kp P                &kp COMMA        &kp DOT          &kp FSLH
+                             &kp AT          &mo 6             &kp SPACE    &kp BSPC    &mt LS(ENTER) ENTER  &caps_word
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
