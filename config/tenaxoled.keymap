@@ -90,6 +90,11 @@
             bindings = <&kp CAPS>;
             key-positions = <24 25>;
         };
+
+        combo-capsword {
+            bindings = <&caps_word>;
+            key-positions = <4 5>;
+        };
     };
 
     behaviors {
