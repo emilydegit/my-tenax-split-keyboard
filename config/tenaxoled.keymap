@@ -455,9 +455,9 @@
         num_nav {
             display-name = "2NAV";
             bindings = <
-&kp AMPS   &kp FSLH              &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON    &kp SEMI      &kp RG(BACKSPACE)
-&kp HASH   &kp NON_US_BACKSLASH  &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR      &kp RIGHT_SHIFT  &kp RGUI     &kp RALT      &kp RCTRL
-&kp ASTRK  &kp PERCENT           &kp CARET  &kp LT                &kp GREATER_THAN       &kp MINUS       &kp UNDER        &kp EXCL     &kp QUESTION  &ht_shift RSHFT EQUAL
+&kp AMPS   &kp FSLH              &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON         &kp SEMI           &kp QUESTION
+&kp HASH   &kp NON_US_BACKSLASH  &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR      &kp RIGHT_SHIFT  &kp RGUI          &kp RALT           &kp RCTRL
+&kp ASTRK  &kp PERCENT           &kp CARET  &kp LT                &kp GREATER_THAN       &kp MINUS       &kp UNDER        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCL
                                  &to 0      &trans                &trans                 &mo 5           &trans           &hold_shift
             >;
 
