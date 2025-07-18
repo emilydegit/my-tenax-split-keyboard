@@ -462,7 +462,7 @@
             label = "1 SYN";
         };
 
-        num_nav {
+        symbol-layer {
             display-name = "2NAV";
             bindings = <
 &kp AMPS   &kp FSLH              &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON         &kp SEMI           &kp QUESTION
