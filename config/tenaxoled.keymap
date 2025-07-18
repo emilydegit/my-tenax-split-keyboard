@@ -455,10 +455,10 @@
         num_nav {
             display-name = "2NAV";
             bindings = <
-&kp AMPS                    &kp FSLH                    &kp NUMBER_2  &kp NUMBER_3       &kp PERIOD  &none            &macro_displaylocn           &smart_moveline  &none                          &kp ESC
-&kp MINUS                   &pht_L2shift LEFT_SHIFT N4  &kp N5        &ht_hl 5 NUMBER_6  &kp COLON   &next_slideover  &left_taphold RA(LEFT) LEFT  &kp UP           &rght_taphold RA(RIGHT) RIGHT  &kp SLASH
-&ht_shift LEFT_SHIFT EQUAL  &kp N7                      &kp N8        &kp N9             &kp N0      &macro_switch    &left_taphold LA(LEFT) LEFT  &kp DOWN         &rght_taphold RA(RIGHT) RIGHT  &ht_shift RSHFT EQUAL
-                                                        &to 0         &trans             &trans      &mo 5            &trans                       &hold_shift
+&kp AMPS   &kp FSLH              &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON    &kp SEMI      &kp RG(BACKSPACE)
+&kp HASH   &kp NON_US_BACKSLASH  &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR      &kp RIGHT_SHIFT  &kp RGUI     &kp RALT      &kp RCTRL
+&kp ASTRK  &kp PERCENT           &kp CARET  &kp LT                &kp GREATER_THAN       &kp MINUS       &kp UNDER        &kp EXCL     &kp QUESTION  &ht_shift RSHFT EQUAL
+                                 &to 0      &trans                &trans                 &mo 5           &trans           &hold_shift
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
@@ -507,10 +507,10 @@
         Toggle {
             display-name = "6TOG";
             bindings = <
-&kp ESC   &trans          &kp F12       &trans     &trans       &msc SCRL_DOWN  &mkp MB1        &kp F1          &mkp MB2       &mkp MB3
-&kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp LC(F10)  &kp RC(F3)      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT
-&trans    &trans          &trans        &kp F11    &kp F12      &msc SCRL_UP    &kp LC(RIGHT)   &kp RS(LEFT)    &kp RS(RIGHT)  &kp LC(LEFT)
-                          &trans        &trans     &trans       &trans          &trans          &trans
+&kp ESC   &trans          &kp F12               &trans     &trans       &msc SCRL_DOWN  &mkp MB1        &kp F1          &mkp MB2       &mkp MB3
+&kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT  &kp LC(F10)  &kp RC(F3)      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP   &mmv MOVE_RIGHT
+&trans    &kp RC(RG(Q))   &kp LS(LC(NUMBER_4))  &kp F11    &kp F12      &msc SCRL_UP    &kp LC(RIGHT)   &kp RS(LEFT)    &kp RS(RIGHT)  &kp LC(LEFT)
+                          &trans                &trans     &trans       &trans          &trans          &trans
             >;
 
             label = "6 TG";
