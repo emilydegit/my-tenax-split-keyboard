@@ -467,7 +467,7 @@
 &kp AMPS   &kp FSLH              &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp COLON         &kp SEMI           &kp QUESTION
 &kp HASH   &kp NON_US_BACKSLASH  &kp TILDE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp DOLLAR      &kp RIGHT_SHIFT  &kp RGUI          &kp RALT           &kp RCTRL
 &kp ASTRK  &kp PERCENT           &kp CARET  &kp LT                &kp GREATER_THAN       &kp MINUS       &kp UNDER        &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCL
-                                 &trans     &trans                &trans                 &trans          &trans           &to 3
+                                 &to 0      &trans                &trans                 &trans          &trans           &to 3
             >;
 
             sensor-bindings = <&inc_dec_kp UP DOWN>;
