@@ -249,9 +249,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <400>;
             quick-tap-ms = <0>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
 
@@ -439,7 +439,7 @@
             display-name = "0DFL";
             bindings = <
 &kp Z        &kp L           &kp D           &mt LC(C) C       &mt LC(V) V  &kp J       &kp F                &kp O            &kp U            &kp SEMI
-&mt LCTRL N  &mt LEFT_ALT R  &mt LEFT_GUI T  &mt LEFT_SHIFT S  &ht_hl 5 G   &ht_hl 5 Y  &mt RIGHT_SHIFT H    &mt RIGHT_GUI A  &mt RIGHT_ALT E  &mt RCTRL I
+&hm LCTRL N  &hm LEFT_ALT R  &hm LEFT_GUI T  &hm LEFT_SHIFT S  &ht_hl 5 G   &ht_hl 5 Y  &hm RIGHT_SHIFT H    &hm RIGHT_GUI A  &hm RIGHT_ALT E  &hm RCTRL I
 &mt LC(X) X  &kp Q           &kp M           &kp W             &kp B        &kp K       &kp P                &kp COMMA        &kp DOT          &kp FSLH
                              &kp AT          &mo 6             &kp SPACE    &kp BSPC    &mt LS(ENTER) ENTER  &to 1
             >;
