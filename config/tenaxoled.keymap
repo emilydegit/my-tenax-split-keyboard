@@ -91,11 +91,6 @@
             key-positions = <24 25>;
         };
 
-        combo-capsword {
-            bindings = <&kp AT>;
-            key-positions = <4 5>;
-        };
-
         combo-question {
             bindings = <&kp QUESTION>;
             key-positions = <23 24>;
