@@ -440,7 +440,7 @@
             display-name = "0DFL";
             bindings = <
 &kp Z                  &kp L           &kp D           &left_taphold LC(C) C  &left_taphold LC(V) V  &kp J          &kp F                          &kp O            &kp U            &kp SEMI
-&hm LCTRL N            &hm LEFT_ALT R  &hm LEFT_GUI T  &hm LEFT_SHIFT S       &ht_hl 5 G             &ht_hl 5 Y     &hm RIGHT_SHIFT H              &hm RIGHT_GUI A  &hm RIGHT_ALT E  &hm RCTRL I
+&hm LG(LCTRL) N        &hm LEFT_ALT R  &hm LEFT_GUI T  &hm LEFT_SHIFT S       &ht_hl 5 G             &ht_hl 5 Y     &hm RIGHT_SHIFT H              &hm RIGHT_GUI A  &hm RIGHT_ALT E  &hm RG(RCTRL) I
 &left_taphold LC(X) X  &kp Q           &kp M           &kp W                  &kp B                  &kp K          &kp P                          &kp COMMA        &kp DOT          &kp FSLH
                                        &kp AT          &mo 6                  &kp SPACE              &kp BACKSPACE  &rght_taphold LS(ENTER) ENTER  &to 1
             >;
