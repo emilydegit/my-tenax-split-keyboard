@@ -87,12 +87,12 @@
         };
 
         combo-capslock {
-            bindings = <&kp CAPS>;
+            bindings = <&caps_word>;
             key-positions = <24 25>;
         };
 
         combo-capsword {
-            bindings = <&caps_word>;
+            bindings = <&kp AT>;
             key-positions = <4 5>;
         };
 
