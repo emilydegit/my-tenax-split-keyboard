@@ -108,7 +108,7 @@
 
         keyrepeat {
             bindings = <&key_repeat>;
-            key-positions = <32 33>;
+            key-positions = <16 17>;
         };
     };
 
