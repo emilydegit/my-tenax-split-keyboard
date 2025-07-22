@@ -71,7 +71,7 @@
         };
 
         cmb_bspLine {
-            bindings = <&kp LC(BACKSPACE)>;
+            bindings = <&kp LC(LG(BACKSPACE))>;
             key-positions = <10 11>;
             layers = <0>;
         };
