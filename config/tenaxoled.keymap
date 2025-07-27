@@ -105,6 +105,11 @@
             bindings = <&key_repeat>;
             key-positions = <16 17>;
         };
+
+        chinese {
+            bindings = <&kp LC(GRAVE)>;
+            key-positions = <12 11>;
+        };
     };
 
     behaviors {
