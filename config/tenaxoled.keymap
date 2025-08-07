@@ -110,6 +110,11 @@
             bindings = <&kp LC(GRAVE)>;
             key-positions = <4 5>;
         };
+
+        hold_shift {
+            bindings = <&hold_shift>;
+            key-positions = <32 13>;
+        };
     };
 
     behaviors {
