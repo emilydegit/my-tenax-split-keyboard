@@ -451,7 +451,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default {
+        Default {
             display-name = "0DFL";
             bindings = <
 &kp Z                  &kp L           &kp D           &left_taphold LC(C) C  &left_taphold LC(V) V  &kp J          &kp F                          &kp O            &kp U            &kp SEMI
