@@ -56,8 +56,8 @@
             layers = <3>;
         };
 
-        bsp_del {
-            bindings = <&bspc_del>;
+        combo_del {
+            bindings = <&kp DELETE>;
             key-positions = <20 21>;
             timeout-ms = <200>;
             layers = <0>;
@@ -119,6 +119,11 @@
         combo-grave {
             bindings = <&kp GRAVE>;
             key-positions = <18 19>;
+        };
+
+        combo_repeat {
+            bindings = <&key_repeat>;
+            key-positions = <7 16 18>;
         };
     };
 
