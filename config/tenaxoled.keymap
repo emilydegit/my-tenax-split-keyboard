@@ -516,7 +516,7 @@
             label = "4 Md";
         };
 
-        OS_app {
+        Number-Layer {
             display-name = "5OS";
             bindings = <
 &kp EXCL  &kp AT  &kp HASH      &kp DOLLAR  &kp PLUS   &kp MINUS      &kp PERCENT  &kp CARET     &kp AMPERSAND  &kp ASTRK
@@ -529,7 +529,7 @@
             label = "5 OS";
         };
 
-        Toggle {
+        Mouse-Control {
             display-name = "6TOG";
             bindings = <
 &kp ESC                        &kp C_VOL_DN    &kp F12        &kp C_VOLUME_UP                &kp K_MUTE      &msc SCRL_DOWN  &mkp MB1        &kp F1          &mkp MB2            &mkp MB3
