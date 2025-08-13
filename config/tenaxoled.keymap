@@ -469,7 +469,7 @@
             label = "0DFL";
         };
 
-        Gaming-layer {
+        Gaming-Layer {
             display-name = "1SYN";
             bindings = <
 &kp ESCAPE  &kp Q  &kp W  &kp E   &kp R   &none   &none     &kp UP_ARROW  &none      &kp TAB
