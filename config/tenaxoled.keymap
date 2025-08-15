@@ -527,10 +527,10 @@
         Mouse-Control {
             display-name = "6TOG";
             bindings = <
-&kp ESC                        &kp C_VOL_DN    &kp F12        &kp C_VOLUME_UP                &kp K_MUTE      &msc SCRL_DOWN  &mkp MB1        &kp F1          &mkp MB2            &mkp MB3
-&left_taphold RG(LEFT) LEFT    &kp DOWN_ARROW  &kp UP_ARROW   &left_taphold RG(RIGHT) RIGHT  &sk LEFT_SHIFT  &kp RC(F3)      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP        &mmv MOVE_RIGHT
-&left_taphold RG(GRAVE) GRAVE  &kp RC(RG(Q))   &kp LS(LG(S))  &none                          &kp RG(RIGHT)   &msc SCRL_UP    &kp LC(RIGHT)   &kp RS(RIGHT)   &kp RS(LEFT_ARROW)  &kp LC(LEFT)
-                                               &trans         &trans                         &trans          &trans          &trans          &trans
+&kp ESC                        &kp C_VOL_DN    &kp F12        &kp C_VOLUME_UP  &kp K_MUTE      &msc SCRL_DOWN  &mkp MB1        &kp F1          &mkp MB2            &mkp MB3
+&kp LEFT                       &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT        &sk LEFT_SHIFT  &kp RC(F3)      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP        &mmv MOVE_RIGHT
+&left_taphold RG(GRAVE) GRAVE  &kp RC(RG(Q))   &kp LS(LG(S))  &none            &kp RG(RIGHT)   &msc SCRL_UP    &kp LC(RIGHT)   &kp RS(RIGHT)   &kp RS(LEFT_ARROW)  &kp LC(LEFT)
+                                               &trans         &trans           &trans          &trans          &trans          &trans
             >;
 
             label = "6 TG";
